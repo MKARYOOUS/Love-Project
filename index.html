@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>For Mariam ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- قلوب -->
+<div id="hearts"></div>
+
+<!-- الشاشة الأولى -->
+<div id="screen1" class="screen active">
+    <div class="heart" onclick="goToScreen2()">❤️</div>
+</div>
+
+<!-- الشاشة الثانية -->
+<div id="screen2" class="screen">
+    <div id="text1" class="typing"></div>
+
+    <!-- صورة النجفة -->
+    <img src="images/lamp.png" class="lamp-img" onclick="goToScreen3()">
+</div>
+
+<!-- الشاشة الثالثة -->
+<div id="screen3" class="screen">
+
+    <img src="images/lamp.png" class="lamp-bg">
+
+    <div id="text2" class="typing"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
